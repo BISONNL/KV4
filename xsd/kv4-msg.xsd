@@ -16,6 +16,9 @@
 <!--            0.3:bijgewerkte versie 8.1.0.0(x)                                      -->
 <!--            0.4:bijgewerkte versie 8.1.0.0(x)                                      -->
 <!--            0.5:bijgewerkte versie 8.1.0.0(x)                                      -->
+<!--            0.6:bijgewerkte versie 8.1.0.2                                         -->
+<!--                  - aanpassen tikfout voor DossierNameType KV4relatedjourneys      -->
+<!--                    was KV9relatedjourneys [Document was correct]                  -->
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tmi8="http://bison.connekt.nl/tmi8/kv4/msg" xmlns:tmi8c="http://bison.connekt.nl/tmi8/kv4/core" targetNamespace="http://bison.connekt.nl/tmi8/kv4/msg" elementFormDefault="qualified">
 	<xs:import namespace="http://bison.connekt.nl/tmi8/kv4/core" schemaLocation="kv4-core.xsd"/>
@@ -101,7 +104,7 @@
 	</xs:group>
 	<xs:simpleType name="DossierNameType">
 		<xs:restriction base="xs:string">
-			<xs:enumeration value="KV9relatedjourneys"/>
+			<xs:enumeration value="KV4relatedjourneys"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="VersionType">
@@ -221,7 +224,7 @@
 	<xs:simpleType name="vehiclejourneytypeType">
 		<xs:annotation id="E42">
 			<xs:documentation xml:lang="nl">
-				Geeft het soort rit aan, 
+				Geeft het soort rit aan,
 				DEADRUN = materiaalrit, geen passagiers
 				SERVICEJOURNEY = dienstregelingrit (incluis versterkingrit), vervoert passagiers
 				SPECIALSERVICE = bijzondere rit, overig, maar vervoert passagiers (bv pendel)
