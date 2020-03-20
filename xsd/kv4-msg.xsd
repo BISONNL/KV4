@@ -12,7 +12,7 @@
 <!--            0.5 (concept) (dd-mm-2010)                                             -->
 <!-- History:                                                                          -->
 <!--            0.1:   initiele versie 8.1.0.0(c)                                      -->
-<!--            0.2:bijgewerkte versie 8.1.0.0(f)	                                   -->
+<!--            0.2:bijgewerkte versie 8.1.0.0(f)	                               -->
 <!--            0.3:bijgewerkte versie 8.1.0.0(x)                                      -->
 <!--            0.4:bijgewerkte versie 8.1.0.0(x)                                      -->
 <!--            0.5:bijgewerkte versie 8.1.0.0(x)                                      -->
@@ -224,7 +224,7 @@
 	<xs:simpleType name="vehiclejourneytypeType">
 		<xs:annotation id="E42">
 			<xs:documentation xml:lang="nl">
-				Geeft het soort rit aan,
+				Geeft het soort rit aan, 
 				DEADRUN = materiaalrit, geen passagiers
 				SERVICEJOURNEY = dienstregelingrit (incluis versterkingrit), vervoert passagiers
 				SPECIALSERVICE = bijzondere rit, overig, maar vervoert passagiers (bv pendel)
