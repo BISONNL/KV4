@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- edited with XMLSpy v2009 sp1 (http://www.altova.com) by Jan Koers (InTraffic B.V.) -->
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-<!-- Copyright:	Dit document is eigendom van platform BISON onder de Stichting Connekt,-->
-<!--            wordt geplubliceerd on de Creative Commons Licencsie by-nd/3.0/nl, zie -->
-<!--            http://creativecommons.org/licemcmses/by-nd/3.0/nl                     -->
-<!-- Opmerking: XSD is gebaseert op TMI8 koppelvlakken 4 versie 8.1.0.0(f)             -->
-<!-- Version:   0.1 (concept) (20-01-2009)                                             -->
-<!--            0.2 (draft)   (08-04-2010)                                             -->
-<!--            0.3 (concept) (dd-mm-2010)                                             -->
-<!--            0.4 (concept) (dd-mm-2010)                                             -->
-<!--            0.5 (concept) (dd-mm-2010)                                             -->
-<!-- History:                                                                          -->
-<!--            0.1:   initiele versie 8.1.0.0(c)                                      -->
-<!--            0.2:bijgewerkte versie 8.1.0.0(f)	                               -->
-<!--            0.3:bijgewerkte versie 8.1.0.0(x)                                      -->
-<!--            0.4:bijgewerkte versie 8.1.0.0(x)                                      -->
-<!--            0.5:bijgewerkte versie 8.1.0.0(x)                                      -->
-<!--            0.6:bijgewerkte versie 8.1.0.2                                         -->
-<!--                  - aanpassen tikfout voor DossierNameType KV4relatedjourneys      -->
-<!--                    was KV9relatedjourneys [Document was correct]                  -->
-<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- Copyright: Dit document is eigendom van platform BISON onder Samenwerkingsverband DOVA, -->
+<!--            wordt geplubliceerd on de Creative Commons Licencsie by-nd/3.0/nl, zie       -->
+<!--            http://creativecommons.org/licemcmses/by-nd/3.0/nl                           -->
+<!-- Opmerking: XSD is gebaseerd op TMI8 koppelvlak 4 versie 8.1.1                           -->
+<!-- Version:   0.1 (concept) (20-01-2009)                                                   -->
+<!--            0.2 (draft)   (08-04-2010)                                                   -->
+<!--            0.3 (concept) (dd-mm-2010)                                                   -->
+<!--            0.4 (concept) (dd-mm-2010)                                                   -->
+<!--            0.5 (concept) (dd-mm-2010)                                                   -->
+<!-- History:                                                                                -->
+<!--            0.1:   initiele versie 8.1.0.0(c)                                            -->
+<!--            0.2:bijgewerkte versie 8.1.0.0(f)                                            -->
+<!--            0.3:bijgewerkte versie 8.1.0.0(x)                                            -->
+<!--            0.4:bijgewerkte versie 8.1.0.0(x)                                            -->
+<!--            0.5:bijgewerkte versie 8.1.0.0(x)                                            -->
+<!--            0.6:bijgewerkte versie 8.1.0.2                                               -->
+<!--                  - aanpassen tikfout voor DossierNameType KV4relatedjourneys            -->
+<!--                    was KV9relatedjourneys [Document was correct]                        -->
+<!--         8.1.1a: Copyright aangepast.                                                    -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tmi8="http://bison.connekt.nl/tmi8/kv4/msg" xmlns:tmi8c="http://bison.connekt.nl/tmi8/kv4/core" targetNamespace="http://bison.connekt.nl/tmi8/kv4/msg" elementFormDefault="qualified">
 	<xs:import namespace="http://bison.connekt.nl/tmi8/kv4/core" schemaLocation="kv4-core.xsd"/>
 	<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
